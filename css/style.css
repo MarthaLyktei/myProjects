@@ -19,8 +19,26 @@ p {
 }
 .container{
 	margin: 0 auto;
-	width: 960px;
+	max-width: 70%;
 }
+.nav-container{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 900px;
+	/* max-width: 70%; */
+}
+.nav-container > div{
+/* margin: 10px auto; */
+display: inline-block;
+}
+
+.nav-container > ul > li {
+	margin: auto;
+}
+
+/* form{
+	margin: 10 15px;
+} */
 
 /*HEADER*/
 
@@ -42,6 +60,10 @@ p {
 	background-color: DimGray;
 	border-color: DimGrey;
 	min-height: 64px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 	/* position: absolute; */
 	/* display: flex;
 	justify-content: center;
@@ -83,14 +105,17 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap; */
-	padding: 15px 0;
+	padding: 5px 0;
 	float: right;
+	margin-left: 20px;
 
 }
 .login input[type="text"], 
 .login input[type="password"] {
 	padding: 5px;
+	
 	margin-right: 5px;
+	margin-top: 5px;
 	border: 1px solid transparent;
 	border-radius: 5px;
 	outline: none;
@@ -100,7 +125,7 @@ p {
 	padding: 5px 15px;
 	border: 1px solid DimGray;
 	border-radius: 5px;
-	/* margin-top: 15px; */
+	margin-top:  10px;
 }
 .login input[type="submit"]:hover,
 button:hover{
@@ -126,7 +151,7 @@ button:hover{
 }
 
 .collection-item-outer {
-	display: inline-block;
+	display: block;
 	float: left;
 	padding-left: 5px;
 	padding-right: 5px;

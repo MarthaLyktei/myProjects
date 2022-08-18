@@ -3,7 +3,7 @@ function showText (el) {
 		el.previousElementSibling.style.height = "100%";
 		el.innerHTML = "ShowLess...";
 	} else {
-		el.previousElementSibling.style.height = "82px";
+		el.previousElementSibling.style.height = "80px";
 		el.innerHTML = "Read More...";
 	}
 }
