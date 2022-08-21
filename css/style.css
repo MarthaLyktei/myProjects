@@ -194,7 +194,7 @@ height: 100%;
 	text-overflow: ellipsis;
 }
 .collection-text p {
-	max-height: 80px;
+	height: 80px;
 	overflow: hidden;
 }
 
